@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.js": "/Dop-Agent-Kiosk-App/static/js/main.4be4a2a2.js",
+    "main.css": "/Dop-Agent-Kiosk-App/static/css/main.c670de66.css",
+    "main.js": "/Dop-Agent-Kiosk-App/static/js/main.4d033748.js",
     "static/js/488.6622447a.chunk.js": "/Dop-Agent-Kiosk-App/static/js/488.6622447a.chunk.js",
     "index.html": "/Dop-Agent-Kiosk-App/index.html",
-    "main.4be4a2a2.js.map": "/Dop-Agent-Kiosk-App/static/js/main.4be4a2a2.js.map",
+    "main.c670de66.css.map": "/Dop-Agent-Kiosk-App/static/css/main.c670de66.css.map",
+    "main.4d033748.js.map": "/Dop-Agent-Kiosk-App/static/js/main.4d033748.js.map",
     "488.6622447a.chunk.js.map": "/Dop-Agent-Kiosk-App/static/js/488.6622447a.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.4be4a2a2.js"
+    "static/css/main.c670de66.css",
+    "static/js/main.4d033748.js"
   ]
 }
