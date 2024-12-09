@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/Dop-Agent-Kiosk-App/static/js/main.4be4a2a2.js",
+    "static/js/488.6622447a.chunk.js": "/Dop-Agent-Kiosk-App/static/js/488.6622447a.chunk.js",
+    "index.html": "/Dop-Agent-Kiosk-App/index.html",
+    "main.4be4a2a2.js.map": "/Dop-Agent-Kiosk-App/static/js/main.4be4a2a2.js.map",
+    "488.6622447a.chunk.js.map": "/Dop-Agent-Kiosk-App/static/js/488.6622447a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4be4a2a2.js"
+  ]
+}
