@@ -20,7 +20,7 @@ function Account(){
         console.log(data);
         e.preventDefault();
         const url="http://localhost:9090/api/accounts"
-        const response = await axios.post(url,data)
+        await axios.post(url,data)
         .then(function (response){
             alert(response.status);
             console.log(response.data);
