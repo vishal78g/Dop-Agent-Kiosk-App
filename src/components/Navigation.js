@@ -8,7 +8,7 @@ function Navigation() {
       <>        
     <Navbar bg="light" data-bs-theme="light">
     <Container>
-      <Navbar.Brand href="/">Home</Navbar.Brand>
+      <Navbar.Brand href="#/">Home</Navbar.Brand>
       <Nav className="me-auto">
         <Nav.Link href="#/add">Add</Nav.Link>
         <Nav.Link href="#/view">View</Nav.Link>
