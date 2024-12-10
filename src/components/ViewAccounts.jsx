@@ -11,28 +11,27 @@ function ViewAccounts(){
     const handleSubmit = async (e) => {
         e.preventDefault();
         const url="http://localhost:9090/api/accounts"
-        const responce = await axios.get(url)
+         await axios.get(url)
         .then(function (responce) {
           const accounts=responce.data;
           console.log(accounts);
-          accounts.map((newAccount) => {
-            console.log(newAccount.accId);
+          accounts.forEach((newAccount) => 
             setAccounts((prevAccounts) => {
               return [...prevAccounts,newAccount]
             })
             
 
-          })
+          )
           
         }).catch(function (error) {
             console.log(error);
         })
     }
 
-    const updateTable =accounts.map(
-      (account)=>{
+    const updateTable =accounts.forEach(
+      (account)=>
 
-          return(
+          
               <tr>
                   <td>{account.accId}</td>
                   <td>{account.accNumber}</td>
@@ -41,8 +40,8 @@ function ViewAccounts(){
                   <td>{account.village}</td>
                   <td>{account.mobileNo }</td>
               </tr>
-          )
-      }
+          
+      
   )
 
 
