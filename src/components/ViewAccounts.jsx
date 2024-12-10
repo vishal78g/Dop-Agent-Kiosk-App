@@ -29,9 +29,7 @@ function ViewAccounts(){
     }
 
     const updateTable =accounts.forEach(
-      (account)=>
-
-          
+      (account)=> (
               <tr>
                   <td>{account.accId}</td>
                   <td>{account.accNumber}</td>
@@ -40,8 +38,8 @@ function ViewAccounts(){
                   <td>{account.village}</td>
                   <td>{account.mobileNo }</td>
               </tr>
-          
-      
+            
+      )
   )
 
 

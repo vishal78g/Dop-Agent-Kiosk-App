@@ -1,8 +1,8 @@
 {
   "name": "dop-egent-kiosk",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://vishal78g.github.io/Dop-Agent-Kiosk-App/#",
+  "private": false,
+  "homepage": "https://vishal78g.github.io/Dop-Agent-Kiosk-App",
   "dependencies": {
     "@testing-library/react": "^16.1.0",
     "axios": "^1.7.9",
